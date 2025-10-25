@@ -1,0 +1,9 @@
+{
+  "name": "code-quality-toolkit",
+  "version": "1.0.0",
+  "description": "Comprehensive code review, security analysis, and performance optimization toolkit",
+  "author": {
+    "name": "Kelly Merrell",
+    "email": "keldog@gmail.com"
+  }
+}

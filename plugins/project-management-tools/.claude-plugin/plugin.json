@@ -1,0 +1,9 @@
+{
+  "name": "project-management-tools",
+  "version": "1.0.0",
+  "description": "Project activity reporting and intelligent ticket consultation for development workflow management",
+  "author": {
+    "name": "Kelly Merrell",
+    "email": "keldog@gmail.com"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-plugins-personal",
+  "version": "1.0.0",
+  "description": "Personal Claude Code plugin marketplace featuring curated command collections and specialized agents for software development workflows",
+  "owner": {
+    "name": "Kelly Merrell",
+    "email": "keldog@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "requirements-toolkit",
+      "description": "Comprehensive requirements analysis and planning workflow with intelligent scouting and requirement validation",
+      "version": "1.0.0",
+      "author": {
+        "name": "Kelly Merrell",
+        "email": "keldog@gmail.com"
+      },
+      "source": "./plugins/requirements-toolkit",
+      "category": "development"
+    },
+    {
+      "name": "build-execution-suite",
+      "description": "Complete build lifecycle management from workspace initialization to requirement validation and completion evaluation",
+      "version": "1.0.0",
+      "author": {
+        "name": "Kelly Merrell",
+        "email": "keldog@gmail.com"
+      },
+      "source": "./plugins/build-execution-suite",
+      "category": "development"
+    },
+    {
+      "name": "code-quality-toolkit",
+      "description": "Comprehensive code review, security analysis, and performance optimization toolkit",
+      "version": "1.0.0",
+      "author": {
+        "name": "Kelly Merrell",
+        "email": "keldog@gmail.com"
+      },
+      "source": "./plugins/code-quality-toolkit",
+      "category": "quality"
+    },
+    {
+      "name": "project-management-tools",
+      "description": "Project activity reporting and intelligent ticket consultation for development workflow management",
+      "version": "1.0.0",
+      "author": {
+        "name": "Kelly Merrell",
+        "email": "keldog@gmail.com"
+      },
+      "source": "./plugins/project-management-tools",
+      "category": "productivity"
+    },
+    {
+      "name": "cc-utilities",
+      "description": "Claude Code meta-utilities for learning from conversations and designing custom subagents",
+      "version": "1.0.0",
+      "author": {
+        "name": "Kelly Merrell",
+        "email": "keldog@gmail.com"
+      },
+      "source": "./plugins/cc-utilities",
+      "category": "utilities"
+    }
+  ]
+}

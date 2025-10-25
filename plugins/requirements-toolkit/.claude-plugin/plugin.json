@@ -1,0 +1,9 @@
+{
+  "name": "requirements-toolkit",
+  "version": "1.0.0",
+  "description": "Comprehensive requirements analysis and planning workflow with intelligent scouting and requirement validation",
+  "author": {
+    "name": "Kelly Merrell",
+    "email": "keldog@gmail.com"
+  }
+}
