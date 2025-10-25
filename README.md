@@ -106,7 +106,7 @@ Personal Claude Code plugin marketplace featuring curated command collections an
 ### Add Marketplace
 
 ```bash
-/plugins add git https://github.com/kmerrell42/claude-plugins-personal.git
+/plugins add git https://github.com/kmerrell42/cc-plugins.git
 ```
 
 ### Install Individual Plugins
