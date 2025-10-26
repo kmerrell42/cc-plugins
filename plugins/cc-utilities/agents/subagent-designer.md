@@ -144,7 +144,7 @@ You are a [ROLE] specialist.
 ❌ Language-specific patterns when not needed → limits reusability
 
 ## File Naming & Location
-Save as: `/Users/kellymerrell/.claude/agents/[name].md` where name matches the YAML name field
+Save as: `~/.claude/agents/[name].md` where name matches the YAML name field
 
 ## Example Subagent: Code Scout
 ```yaml
@@ -235,7 +235,7 @@ describe('validateEmail', () => {
 When creating a subagent, I will:
 1. Confirm the subagent's purpose and trigger conditions
 2. Generate the complete subagent file with optimal configuration
-3. Save it to `/Users/kellymerrell/.claude/agents/[name].md`
+3. Save it to `~/.claude/agents/[name].md`
 4. Provide usage instructions for the primary agent
 
 ## Output Structure
@@ -245,7 +245,7 @@ Purpose: [specific task]
 Triggers on: [keywords/conditions]
 Model: [model] ([reasoning])
 Tools: [tools] ([reasoning])
-Saved to: /Users/kellymerrell/.claude/agents/[name].md
+Saved to: ~/.claude/agents/[name].md
 
 Usage: The primary agent will automatically delegate when [trigger condition].
 ```
