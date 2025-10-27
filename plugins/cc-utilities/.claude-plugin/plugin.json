@@ -1,6 +1,6 @@
 {
   "name": "cc-utilities",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Claude Code meta-utilities for learning from conversations and designing custom subagents",
   "author": {
     "name": "Kelly Merrell",
