@@ -113,25 +113,25 @@ Personal Claude Code plugin marketplace featuring curated command collections an
 
 ```bash
 # Install all plugins
-/plugins install requirements-toolkit@claude-plugins-personal
-/plugins install build-execution-suite@claude-plugins-personal
-/plugins install code-quality-toolkit@claude-plugins-personal
-/plugins install project-management-tools@claude-plugins-personal
-/plugins install cc-utilities@claude-plugins-personal
+/plugins install requirements-toolkit@kmerrell-plugins
+/plugins install build-execution-suite@kmerrell-plugins
+/plugins install code-quality-toolkit@kmerrell-plugins
+/plugins install project-management-tools@kmerrell-plugins
+/plugins install cc-utilities@kmerrell-plugins
 
 # Or install selectively based on your needs
-/plugins install requirements-toolkit@claude-plugins-personal
+/plugins install requirements-toolkit@kmerrell-plugins
 ```
 
 ### Update Plugins
 
 ```bash
 # Update marketplace
-/plugins update claude-plugins-personal
+/plugins update kmerrell-plugins
 
 # Reinstall individual plugins to get latest version
-/plugins uninstall requirements-toolkit@claude-plugins-personal
-/plugins install requirements-toolkit@claude-plugins-personal
+/plugins uninstall requirements-toolkit@kmerrell-plugins
+/plugins install requirements-toolkit@kmerrell-plugins
 ```
 
 ## Usage Examples
@@ -187,7 +187,7 @@ Personal Claude Code plugin marketplace featuring curated command collections an
 
 ### Repository Structure
 ```
-claude-plugins-personal/
+kmerrell-plugins/
 ├── README.md
 ├── plugins/
 │   ├── requirements-toolkit/

@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "claude-plugins-personal",
+  "name": "kmerrell-plugins",
   "version": "1.0.0",
   "description": "Personal Claude Code plugin marketplace featuring curated command collections and specialized agents for software development workflows",
   "owner": {
