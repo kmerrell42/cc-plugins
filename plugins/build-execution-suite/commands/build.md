@@ -2,7 +2,7 @@
 name: build
 description: Execute implementation based on the established plan, with built-in code review loop
 argument-hint: '"task description"'
-tools: Read,Write,Edit,Bash,Grep,Glob,TodoWrite,SlashCommand
+tools: Read,Write,Edit,Bash,Grep,Glob,TaskCreate,TaskUpdate,TaskList,TaskGet,SlashCommand
 ---
 
 **Arguments:**
@@ -87,7 +87,7 @@ Code review identifies problems that need fixing.
    - Focus on critical and important issues
    - Note specific file locations and problems
 
-2. **Append issues to todo list** using TodoWrite:
+2. **Append issues to task list** using TaskCreate:
    ```
    For each critical/important issue:
    - Add todo: Fix [specific issue] in [file:line]

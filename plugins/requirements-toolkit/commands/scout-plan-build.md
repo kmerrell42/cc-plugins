@@ -2,7 +2,7 @@
 name: scout-plan-build
 description: Complete development workflow - scout information, create plan, then build implementation
 argument-hint: '"task description" [optional: agent_count]'
-tools: SlashCommand,TodoWrite
+tools: SlashCommand,TaskCreate,TaskUpdate,TaskList,TaskGet
 ---
 
 **Arguments:**

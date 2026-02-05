@@ -2,7 +2,7 @@
 name: build-from-requirements
 description: Complete requirements-driven development workflow - analyze requirements, scout-plan-build implementation, then validate against original requirements
 argument-hint: '"requirements source"'
-tools: SlashCommand,TodoWrite
+tools: SlashCommand,TaskCreate,TaskUpdate,TaskList,TaskGet
 ---
 
 **Arguments:**
@@ -115,7 +115,7 @@ One or more requirements not satisfied.
    - Identify specific missing functionality
    - Note concrete actions needed
 
-2. **Append gaps to todo list** using TodoWrite:
+2. **Append gaps to task list** using TaskCreate:
    ```
    For each unsatisfied requirement:
    - Add todo: [Specific action needed from evaluation]
