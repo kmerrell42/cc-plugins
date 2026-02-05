@@ -1,6 +1,6 @@
 {
   "name": "build-execution-suite",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Complete build lifecycle management from workspace initialization to requirement validation and completion evaluation",
   "author": {
     "name": "Kelly Merrell",
